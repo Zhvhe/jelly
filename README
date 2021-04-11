@@ -1,0 +1,16 @@
+# How to Reproduce
+
+Requirements:
+  * Python 2.7+
+  * matplotlib library installed
+
+Please execute paths.py on a system with Python2.7+ installed. The
+program will print out a counter until around 680 (for the number of
+sender-receiver pairs) and plot a replication of Figure 9 from the
+Jellyfish paper. Default parameters are 686 servers, 212 switches,
+each switch having 13 ports to connect to other switches and 23 ports
+to connect to servers. The output is the plot contained in
+figure9.png.
+
+>> python paths.py
+

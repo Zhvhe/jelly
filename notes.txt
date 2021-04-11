@@ -1,0 +1,26 @@
+We should try to find an actual Jellyfish network in production (if one exists).
+
+We should look at the following extensions:
+
+* Randomized link cost instead of all link costs being the same.
+
+* What is a reasonable random switch graph and how many end hosts
+  attached per switch
+
+* Generate statistics of path diversity as the network grows from time.
+  e.g.
+  1 switch 2 servers
+  1 switch 3 servers
+  1 switch 4 servers
+  2 switch 4 servers
+  2 switch 5 servers
+  ....
+  x switches, 600+ servers
+
+  add switch of 24 / 64 ports - from Godfrey's talk
+
+* Check path diversity with different traffic matrix:
+  all-to-all
+  random permutation
+  rack-to-rack
+

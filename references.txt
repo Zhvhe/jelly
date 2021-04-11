@@ -1,0 +1,9 @@
+=========
+ECMP
+=========
+
+ECMP Routing video: https://www.youtube.com/watch?v=hUfKCbRXFR8
+
+Multi-path Dijkstra Algorithm for ECMP pseudocode: http://z956.logdown.com/posts/167516-ecmp
+
+Analysis of ECMP: http://www.rfc-base.org/rfc-2992.html
